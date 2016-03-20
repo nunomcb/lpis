@@ -1,0 +1,18 @@
+# Exec
+lpisc
+
+# C
+*.a
+*.o
+
+# Flex
+*.yy.c
+
+# Yacc
+*.tab.c
+*.tab.h
+
+# VIM
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*~

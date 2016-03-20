@@ -1,0 +1,22 @@
+def addFive(int[] array, int size) : int {
+    int counter;
+    int total;
+
+    counter = 0;
+    total = 0;
+
+    while counter < size {
+        array[counter] = array[counter] + 5;
+        total = total + array[counter];
+        counter = counter + 1;
+    }
+
+    return total;
+}
+
+def main() : void {
+    int[3] array;
+    int a;
+
+    a = addFive(array, 3);
+}

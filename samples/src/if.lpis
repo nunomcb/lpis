@@ -1,0 +1,12 @@
+def main() : void {
+    int a;
+
+    a = read;
+
+    if a > 5 {
+        write "> 5";
+    }
+    else {
+        write "<= 5";
+    }
+}
